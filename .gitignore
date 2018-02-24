@@ -6,3 +6,5 @@
 SDL_net_client/build/
 
 \.vscode/
+
+SDL_net_server/build/
