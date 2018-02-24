@@ -81,7 +81,10 @@ int main(int argc, char* argv[])
 			finalMessage += "\r\n";
 			
 			int len = finalMessage.length();
-
+			if( len < 0 )
+			{
+				std::cout << " Tamanho invalido " << std::endl;
+			}
 
 			if (!client->sendMessage(finalMessage))
 			{

@@ -2,6 +2,7 @@
 #include "Message.h"
 
 #include <iostream>
+#include <limits.h>
 
 Connection::Connection()
 {

@@ -1,0 +1,8 @@
+
+*.o
+
+*.a
+
+SDL_net_client/build/
+
+\.vscode/

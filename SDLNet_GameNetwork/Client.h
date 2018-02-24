@@ -5,6 +5,7 @@
 #include "SDL_net.h"
 #include "Message.h"
 
+
 class Client
 {
 private:
